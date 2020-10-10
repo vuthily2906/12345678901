@@ -1,0 +1,259 @@
+<h1> This is a heading  </h1>
+    <h1 style="background-color:DodgerBlue;">Hello World</h1>
+    background-color: lightblue;
+  }
+  
+  h1 {
+    color: white;
+    text-align: center;
+  }
+  
+  p {
+    font-family: verdana;
+    font-size: 20px;
+
+  }
+  h1 {
+    background-color: yellow;
+  }
+  
+  div {
+    background-color: lightgreen;
+  }
+  
+  p {
+    background-color: red;
+  }
+  
+  <h2>Calculate the total width:</h2>
+  
+  <img src="klematis4_big.jpg" width="300" height="263" alt="Klematis">
+  <div>The picture above is 280px wide. The total width of this element is also 300px.</div>
+
+  </style>
+  .serif {
+    font-family: "Times New Roman", Times, serif;
+  }
+  
+  .sansserif {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .monospace {
+    font-family: "Lucida Console", Courier, monospace;
+  }
+  
+  a:link, a:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:hover, a:active {
+    background-color:whiet ;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {background-color: #f2f2f2;}
+  </style>
+  </head>
+  <body>
+  
+  <h2>Responsive Table</h2>
+  <p>A responsive table will display a horizontal scroll bar if the screen is too 
+  small to display the full content. Resize the browser window to see the effect:</p>
+  <p>To create a responsive table, add a container element (like div) with <strong>overflow-x:auto</strong> around the table element:</p>
+  
+  <div style="overflow-x:auto;">
+    <table>
+      <tr>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Points</th>
+        <th>Points</th>
+        <th>Points</th>
+        <th>Points</th>
+        <th>Points</th>
+        <th>Points</th>
+        <th>Points</th>
+        <th>Points</th>
+        <th>Points</th>
+        <th>Points</th>
+      </tr>
+      <tr>
+        <td>John</td>
+        <td>Mr</td>
+        <td>40</td>
+        <td>40</td>
+        <td>40</td>
+        <td>40</td>
+        <td>40</td>
+        <td>40</td>
+        <td>40</td>
+        <td>40</td>
+        <td>40</td>
+        <td>40</td>
+
+      </tr>
+      <tr>
+        <td>Evem</td>
+        <td>him</td>
+        <td>84</td>
+        <td>84</td>
+        <td>84</td>
+        <td>84</td>
+        <td>84</td>
+        <td>84</td>
+        <td>84</td>
+        <td>84</td>
+        <td>84</td>
+        <td>84</td>
+      </tr>
+      <tr>
+        <td>Adam</td>
+        <td>Johnson</td>
+        <td>69</td>
+        <td>69</td>
+        <td>69</td>
+        <td>69</td>
+        <td>69</td>
+        <td>69</td>
+        <td>69</td>
+        <td>69</td>
+        <td>69</td><
+        <td>69</td>
+      </tr>
+    </table>
+  
+  <h2>Link Button</h2>
+  <p>A link styled as a button:</p>
+  <a href="default.asp" target="_blank">This is a link</a>
+
+  
+  <h1>CSS font-family</h1>
+  <p class="serif">This is a paragraph, shown in the Times New Roman font.</p>
+  <p class="sansserif">This is a paragraph, shown in the Arial font.</p>
+  <p class="monospace">This is a paragraph, shown in the Lucida Console font.</p>
+  </head>
+  <body>
+  
+  <h2>Set the height and width of an element</h2>
+  
+  <p>This div element has a height of 150px and a width of 30%:</p>
+  
+  <div></div>
+  
+  
+
+    <h2>HTML Image</h2>
+    <h2 title="I'm a header">The title Attribute</h2>
+
+    <img src="img_chania.jpg" alt="Flowers in Chania" width="460" height="345">
+    <img src="img_girl.jpg" alt="Girl with a jacket" width="500" height="600">
+    <img src="img_typo.jpg" alt="Girl with a jacket">
+
+    <p>
+
+    <p style="color:red;">This is a red paragraph.</p>
+    <p title="I'm a tooltip">Mouse over this paragraph, to display the title attribute as a tooltip.</p>
+    <a href="https://www.w3schools.com"> Click vào đây để đến với trang Đăng kí môn học trực tuyến </a>
+    <p><strong>This text is important!</strong></p>
+p {
+  color: red;
+  text-align: center;
+} 
+</style>
+a {
+  display: block;
+}
+</style>
+img {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index ;
+}
+img {
+  float: left;
+}
+</style>
+.center {
+  text-align: center;
+  border: 3px solid green;
+}
+</style>
+div p {
+  background-color: yellow;
+}
+</style>
+</head>
+<body>
+
+<div>
+  <p>Paragraph 1 in the div.</p>
+  <p>Paragraph 2 in the div.</p>
+  <section><p>Paragraph 3 in the div.</p></section>
+</div>
+
+<p>Paragraph 4. Not in a div.</p>
+<p>Paragraph 5. Not in a div.</p>
+
+/* unvisited link */
+a:link {
+  color: green;
+}
+
+/* visited link */
+a:visited {
+  color: pink;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+</style>
+p::first-letter {
+  color: #ff0000;
+  font-size: xx-large;
+}
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+</style>
+</head>
+<body>
